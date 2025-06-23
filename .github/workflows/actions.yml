@@ -1,1 +1,16 @@
-#this is my first code
+- name: Terraform Apply for AWS
+  # You may pin to the exact commit or the version.
+  # uses: kciter/terraform-apply-for-aws-action@4d4f5092ea794fe54baf80c0ab089133f3996d9a
+  uses: kciter/terraform-apply-for-aws-action@v3
+  with:
+    # The AWS access key id
+    access_key_id: 
+    # The AWS secret access key
+    secret_access_key: 
+    # The AWS default region
+    region: 
+    # Comma-separated string of Terraform variables
+    variables: # optional, default is 
+    # Path to Terraform directory, defaults to the working directory
+    path: # optional, default is .
+          
