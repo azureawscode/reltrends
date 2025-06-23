@@ -35,7 +35,7 @@ jobs:
         sudo apt update && sudo apt-get install terraform
         terraform --version
 
-    - name: Install AWS CLI
+    - name: Configure AWS CLI
       run: |
         aws --version
         aws configure
