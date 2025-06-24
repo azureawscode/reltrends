@@ -47,7 +47,7 @@ jobs:
         aws-region: eu-north-1
         role-session-name: github-session
         #role-to-assume: arn:aws:iam::<ACCOUNT_ID>:role/<ROLE_NAME>
-        role-to-assume: arn:aws:iam::277707135599:user/tf-admin
+        role-to-assume: arn:aws:iam::277707135599:role/tf-rel-admin-role
 
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
